@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.purple[900],
-        title: const Text('Brick By Brick',style: TextStyle(color: Colors.red, fontSize: 30.5)),),
+        title: const Text('Word Generator',style: TextStyle(color: Colors.red, fontSize: 30.5)),),
         body: Center(
           child: Text(wordPair.asPascalCase),
         ) ,
